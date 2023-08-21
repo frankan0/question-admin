@@ -2,7 +2,7 @@ server:
   port: 9430
 spring:
   profiles:
-    active: ${runProType}
+    active: dev
   freemarker:
     cache: false
     charset: UTF-8
@@ -84,11 +84,11 @@ weather-config:
 
 system:
   wx:
-    appid: ****
-    secret: ****
+    appid: 123123123123
+    secret: 12312312312312312
     token-to-live: 12h   #token 过期时间
   qn:
     url: http://image.xx.com
     bucket: question-exam
-    access-key: ****
-    secret-key: ****
+    access-key: 123123123123
+    secret-key: 123123123123
